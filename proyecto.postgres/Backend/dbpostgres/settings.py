@@ -82,12 +82,12 @@ WSGI_APPLICATION = 'dbpostgres.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.oracledb',
-        'NAME': 'xe',
-        'USER': 'alejandro',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'tienda',
+        'USER': 'root',
         'PASSWORD':'12345678',
         'HOST':'localhost',
-        'PORT':'1521'
+        'PORT':'3306'
 
     }
 }
